@@ -1,9 +1,10 @@
 # Getting started with your simple headscale install
 
 ## Host your headscale server - First Step
-	First set up a headscale server on your favorite flavor of linux.
-	Since self-hosting the headscale server requires too much reverse proxying/port forwarding you might find that running it on a VPS is a lot simpler (and cheaper)!
-	You can get started with setting up the server portion of headscale here: 
+First set up a headscale server on your favorite flavor of linux.
+Since self-hosting the headscale server requires too much reverse proxying/port forwarding you might find that running it on a VPS is a lot simpler (and cheaper)!
+You can get started with setting up the server portion of headscale here: 
+
 https://github.com/juanfont/headscale/blob/main/docs/running-headscale-linux.md
 
 
@@ -17,7 +18,8 @@ https://github.com/juanfont/headscale/blob/main/docs/running-headscale-container
 
 ## Headscale client setup install - Final step
 #### Start here if you already have a headscale server running
-	To connect any windows client to your headscale server simply download this binary to the client and run it:
+To connect any windows client to your headscale server simply download this binary to the client and run it:
+
 https://github.com/0xDeadcell/simple-headscale-install/releases/download/v1.0.0/setup_headscale_x86-v1.0.0.exe
 
 If you prefer to run it via the command line:
