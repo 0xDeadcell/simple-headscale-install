@@ -20,7 +20,7 @@ https://github.com/juanfont/headscale/blob/main/docs/running-headscale-container
 #### Start here if you already have a headscale server running
 To connect any windows client to your headscale server simply download this binary to the client and run it:
 
-https://github.com/0xDeadcell/simple-headscale-install/releases/download/v1.0.0/setup_headscale_x86-v1.0.0.exe
+https://github.com/0xDeadcell/simple-headscale-install/releases/download/v1.1.0/debug_setup_headscale-x86_v1.1.0.exe
 
 If you prefer to run it via the command line:
 
