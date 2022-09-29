@@ -24,7 +24,7 @@ https://github.com/0xDeadcell/simple-headscale-install/releases/download/v1.0.0/
 
 If you prefer to run it via the command line:
 
-	curl https://github.com/0xDeadcell/simple-headscale-install/releases/download/v1.0.0/setup_headscale_x86-v1.0.0.exe -o setup_headscale.exe && setup_headscale.exe https://hs.yourdomain.com
+	curl https://github.com/0xDeadcell/simple-headscale-install/releases/download/v1.0.0/setup_headscale_x86-v1.0.0.exe -o setup_headscale.exe && setup_headscale.exe https://hs.yourdomain.com preauthkey
 
 ---
 
