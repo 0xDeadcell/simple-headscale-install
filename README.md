@@ -31,9 +31,9 @@ If you prefer to run it via the command line:
 ## Build Instructions (OPTIONAL)
 	If you decide you'd like to build from source here are the instructions:
 *(Note: Project needs to be run with administrator rights because it needs to write to the HKLM registry before installing tailscale)
-- git clone https://github.com/0xDeadcell/simple-headscale-install
-- Open the project in visual studio, and set the manifest file to require administrator mode (Project -> Properties -> Linker -> Manifest File -> Set UAC Execution Level to Admin)
-- Build
+1. git clone https://github.com/0xDeadcell/simple-headscale-install
+2. Open the project in visual studio, and set the manifest file to require administrator mode (Project -> Properties -> Linker -> Manifest File -> Set UAC Execution Level to Admin)
+3. Build
 
 
 
