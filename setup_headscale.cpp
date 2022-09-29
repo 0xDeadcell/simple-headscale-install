@@ -13,8 +13,8 @@ using namespace std;
 
 int wmain(int argc, wchar_t* argv[])
 {
-	char tailscale_client[] = "tailscale-ipn-setup-1.30.2.exe";
-	URLDownloadToFile(NULL, L"https://pkgs.tailscale.com/stable/tailscale-ipn-setup-1.30.2.exe", (const wchar_t *) tailscale_client, 0, NULL);
+	const char tailscale_file[] = "tailscale-ipn-setup-1.30.2.exe";
+	URLDownloadToFileA(NULL, "https://pkgs.tailscale.com/stable/tailscale-ipn-setup-1.30.2.exe", tailscale_file, 0, NULL);
 	wstring user_input;
 
 	// Check if the user entered at least one argument
@@ -77,11 +77,11 @@ int wmain(int argc, wchar_t* argv[])
 	keyboard.ki.dwExtraInfo = 0;
 	
 	std::string start_cmd = "start /MIN cmd /c \"";
-	std::string start_tailscale_bg = start_cmd + tailscale_client + "\"";
+	std::string start_tailscale_bg = start_cmd + tailscale_file + "\"";
 	cout << start_tailscale_bg << endl;
 	system(start_tailscale_bg.c_str());
 
-	Sleep(300); // Sleep for 0.3 Seconds
+	Sleep(1500); // Sleep for 1.5 Seconds to give time for the install prompt to come up
 	// Press the Enter Key
 	keyboard.ki.wVk = 0x0D; // virtual-key code for the "Enter" key
 	keyboard.ki.dwFlags = 0; // 0 for key press
